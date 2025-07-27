@@ -79,3 +79,63 @@ nav, p, section, article {
   width: 125px;
   margin-left: 8px;
 }
+
+header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+header h1 {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  color: var(--accent2-color);
+  margin-left: 16px;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--accent2-color);
+  font-weight: bold;
+}
+
+.adventures {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.adventures img {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+}
+
+main section {
+  margin-top: 32px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 16px;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adventures figure {
+  margin: 0;
+  text-align: center;
+}
+
