@@ -77,9 +77,28 @@
             <label for="fullname">Full Name:</label>
             <input type="text" id="fullname" name="fullname" required>
 
+            <label for="telephone">Telephone:</label>
+            <input type="text" id="telephone" name="telephone" required>
+
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="email" required>
 
+            <fieldset>
+                <legend>Rafting Experience Level:</legend>
+                
+                <label for="beginner">
+                    <input type="radio" id="beginner" name="experience" value="beginner"> Beginner
+                </label>
+
+                <label for="intermediate">
+                    <input type="radio" id="intermediate" name="experience" value="intermediate"> Intermediate
+                </label>
+
+                <label for="expert">
+                    <input type="radio" id="expert" name="experience" value="expert"> Expert
+                </label>
+            </fieldset>
+            
             <label for="purpose">Purpose of Message:</label>
             <select id="purpose" name="purpose" required>
                 <option value="">--Please choose an option--</option>
@@ -91,8 +110,8 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="5" required></textarea>
 
-            <label class="checkbox-label">
-                <input type="checkbox" name="subscribe">
+            <label for="subscribe" class="checkbox-label">
+                <input type="checkbox" id="subscribe" name="subscribe">
                 Please subscribe me to the monthly newsletter
             </label>
 
