@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #A7D3A6;
+  --primary-color: #2e5830;
   --secondary-color: #7DDF64;
-  --accent1-color: #58A4B0;
-  --accent2-color: #7C6C77;
+  --accent1-color: #1d4c54;
+  --accent2-color: #fefbfb;
   --heading-font: 'Bebas Neue', serif;
   --body-font: 'Open Sans', sans-serif;
 }
@@ -18,7 +18,9 @@ body {
   color: var(--accent1-color);
 }
 
-header, main, footer {
+header,
+main,
+footer {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -29,7 +31,10 @@ h2 {
   font-size: 2.5rem;
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
   margin: 16px;
   padding: 8px;
 }
@@ -39,8 +44,8 @@ nav, p, section, article {
 }
 
 .socialmedia img {
-  width: 32px;  
-  height: auto; 
+  width: 32px;
+  height: auto;
 }
 
 .hero {
@@ -61,7 +66,7 @@ nav, p, section, article {
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
-  color: #fff;
+  color: #ffffff;
   font-size: 3rem;
 }
 
@@ -69,7 +74,7 @@ nav, p, section, article {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .hero article img {
@@ -161,7 +166,7 @@ main section {
   background-color: #f9f9f9;
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form label,
@@ -244,4 +249,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+a {
+  color: #ffffff;
 }
