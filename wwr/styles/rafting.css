@@ -273,10 +273,10 @@ main section {
   border-radius: 5px;
 }
 
-/* Contenedor de la sección CTA */
+/* CTA section container */
 .cta-section {
   background-color: #f0f8ff;
-  text-align: center; /* Centra el texto y el botón */
+  text-align: center; /* Center the text and button */
   padding: 2rem;
   margin: 2rem auto;
   border-radius: 10px;
@@ -284,14 +284,14 @@ main section {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Título dentro del CTA */
+/* Title within the CTA */
 .cta-section h2 {
   font-size: 2rem;
   color: #2c3e50;
   margin-bottom: 1rem;
 }
 
-/* Botón del CTA */
+/* CTA button */
 .cta-button {
   display: inline-block;
   padding: 0.8rem 1.5rem;
@@ -325,7 +325,7 @@ main section {
   background-color: var(--primary-color);
 }
 
-/* 📱 Ajustes para pantallas pequeñas */
+/* Settings for small screens */
 @media screen and (max-width: 600px) {
   .newsletter {
     padding: 15px;
@@ -339,7 +339,7 @@ main section {
     flex-direction: column;
     gap: 10px;
     align-items: stretch;
-    /* hace que el input y el botón ocupen todo el ancho */
+    /* makes the input and button take up the full width */
   }
 
   .newsletter input[type="email"],
